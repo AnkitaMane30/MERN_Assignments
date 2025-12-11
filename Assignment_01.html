@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=200, initial-scale=1.0">
+    <title>Assignment 01</title>
+</head>
+<body>
+    <img src="C:\Users\manea\Downloads\SunbeamLogo.png" width="50%" height="50%" alt="Sunbeam Logo" style="margin-left: 30%;">
+    <h1 style = "margin-left: 33%;"><b> Sunbeam Registration Form </b> </h1>
+    
+    <div style="display: flex;">
+        <div style="flex: 1; padding: 20px; height: auto;">
+            <iframe width="560" height="315" style="padding-left: 80px; padding-top:30px ;" src="C:\Users\manea\Downloads\videoplayback.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+        <div style="flex: 1; padding: 20px; margin-left: 5%;">
+            <table style="width: 100;">
+                <tr>
+                    <th> Name: </th>
+                    <td><input type ="text"></td>
+                </tr>
+                <tr> 
+                    <th>BirthDate: </th> 
+                    <td><input type ="date"></td>
+                </tr>
+                <tr>
+                    <th> Email : </th>
+                    <td><input type = "email"></td>
+                </tr>
+                <tr>
+                    <th> Password: </th>
+                    <td><input type = "password"></td>
+                </tr>
+                <tr>
+                    <th> Address: </th>
+                    <td> <textarea rows="5" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <th> Gender: </th>
+                    <td> <input type = "radio" id="male" name="gender">
+                        <label for="male">Male</label>
+                        <input type = "radio" id="female" name="gender">
+                        <label for="female">Female</label>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <th> Upload Photo: </th>
+                    <td> <input type ="file"></td>
+                </tr>
+                <tr>
+                    <th> Select Your Course: </th>
+                    <td> <select id="Course">
+                        <option value=""disabled selected hidden> select course </option>
+                        <option value="mern"> MERN </option>
+                        <option value="webdev"> Web Development </option>
+                        <option value ="genai"> Gen AI </option>
+                        <option value="embeddeed"> Embedded </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th> Skill set </th>
+                    <td> <input type="checkbox"> Java </input>
+                        <input type="checkbox"> CPP </input>
+                        <input type="checkbox"> OS </input>
+                    </td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>
+                    <input type="button" value="Register">  </input>
+                    <input type="button" value="clear"></input>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+</body>
+</html>
