@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <form action="" onsubmit="return validatePassword()">
+        <div>
+        <h1>Login</h1>
+        <label for = "email"> Email Address :</label><br><br>
+        <input type = "email" name = "email" id ="email" placeholder = "Enter Email " required><br><br>
+        <label for ="pass"> Password: </label><br><br>
+        <input type="password" id = "pass" placeholder=" Enter Password" required><br>
+        <span id = "passError"></span><br><br>
+        <button type="submit" id = "login" value="Login"> Login</button>
+        </div>
+    </form>
+    <script src="./Script.js" ></script>
+    
+</body>
+</html>
